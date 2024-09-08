@@ -9,7 +9,7 @@ import { ReactNode, useEffect, useRef, useState } from "react";
 import { Drawer } from "@/core/components/Drawer";
 import { ChevronUp, ChevronDown, Globe, Bug } from "lucide-react";
 import { Overrides } from "@/core/types";
-
+import FieldContentful from '../../../../../packages/field-contentful'
 const CustomHeader = ({ onPublish }: { onPublish: (data: Data) => void }) => {
   const { appState, dispatch } = usePuck();
 
@@ -381,9 +381,7 @@ export function Client({ path, isEdit }: { path: string; isEdit: boolean }) {
         data={data}
         iframe={{ enabled: false }}
         headerPath={path}
-        permissions={{
-          debug: true,
-        }}
+        // plugins={[FieldContentful]}
         overrides={{
           outline: ({ children }) => (
             <div style={{ padding: 16 }}>{children}</div>

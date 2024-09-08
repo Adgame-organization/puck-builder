@@ -16,18 +16,18 @@
   --puck-color-rose-11: #faf4f8;
   --puck-color-rose-12: #fef8fc;
 
-  --puck-color-azure-01: #00175d;
-  --puck-color-azure-02: #002c77;
-  --puck-color-azure-03: #014292;
-  --puck-color-azure-04: #0158ad;
-  --puck-color-azure-05: #3479be;
-  --puck-color-azure-06: #6499cf;
-  --puck-color-azure-07: #88b0da;
-  --puck-color-azure-08: #abc7e5;
-  --puck-color-azure-09: #cfdff0;
-  --puck-color-azure-10: #e7eef7;
-  --puck-color-azure-11: #f3f6fb;
-  --puck-color-azure-12: #f7faff;
+  --puck-color-azure-01: #4b1f79;   /* Darkest */
+  --puck-color-azure-02: #5a278e;
+  --puck-color-azure-03: #6a2fa3;
+  --puck-color-azure-04: #7f38c5;   /* Base color */
+  --puck-color-azure-05: #924ace;
+  --puck-color-azure-06: #a45cd6;
+  --puck-color-azure-07: #b76fde;
+  --puck-color-azure-08: #c986e7;
+  --puck-color-azure-09: #db9ff0;
+  --puck-color-azure-10: #e8b8f8;
+  --puck-color-azure-11: #f2d0fc;
+  --puck-color-azure-12: #fae6ff;   /* Lightest */
 
   --puck-color-green-01: #002000;
   --puck-color-green-02: #043604;

@@ -17,6 +17,7 @@ export const ButtonGroup: ComponentConfig<ButtonGroupProps> = {
   label: "Button Group",
   fields: {
     buttons: {
+      label: "Buttons",
       type: "array",
       getItemSummary: (item) => item.label || "Button",
       arrayFields: {
@@ -37,10 +38,12 @@ export const ButtonGroup: ComponentConfig<ButtonGroupProps> = {
       },
     },
     align: {
+      label: "Alignment",
       type: "radio",
       options: [
         { label: "left", value: "left" },
         { label: "center", value: "center" },
+        { label: "right", value: "right" },
       ],
     },
   },
